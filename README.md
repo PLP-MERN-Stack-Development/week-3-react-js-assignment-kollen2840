@@ -1,71 +1,115 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19927071&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 💻 Week 3 Assignment: React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This repository contains **two React projects** developed as part of the Week 3 assignment. The objective was to build responsive front-end applications using **React.js**, **JSX**, and **Tailwind CSS**, demonstrating strong component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 📁 Project Structure
 
-## Getting Started
+📦 root
+├── students-feedback/
+│ └── React app using ShadCN UI, reusable components
+└── quicktasks/
+├── client/
+└── server/
+└── API integration with MongoDB
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+markdown
+Copy
+Edit
 
-## Files Included
+---
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 📘 Project 1: Students Feedback
 
-## Requirements
+This project focuses on **component reusability** and **UI architecture**. It uses **ShadCN UI** to build modular, customizable components with Tailwind CSS.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+### ✨ Features
 
-## Project Structure
+- Reusable UI components: `Button`, `Card`, `Navbar`, `Footer`
+- Layout component with props
+- Theme switching using `useContext`
+- Local task management (add, filter, delete)
+- Custom hook: `useLocalStorage`
+- Light/Dark mode
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+### 🧩 Technologies
 
-## Submission
+- `React`
+- `Tailwind CSS`
+- `ShadCN UI`
+- `CSS`
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## 📘 Project 2: QuickTasks
 
-## Resources
+This full-stack project demonstrates **API integration** with MongoDB. It includes both a React front-end and an Express-based back-end.
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+### ✨ Features
+
+- API fetch from MongoDB via Express
+- Axios-based HTTP requests
+- Add, complete, delete tasks with real-time updates
+- Error and loading state handling
+- Pagination and search functionality
+
+### 🧩 Frontend Tech Stack
+
+- `React`
+- `Tailwind CSS`
+- `Axios`
+
+### 🔧 Backend Tech Stack
+
+- `Express.js`
+- `Mongoose`
+- `CORS`
+- `dotenv`
+- `nodemon`
+
+## 🚀 Setup Instructions
+
+> Make sure **Node.js v18+** is installed.
+
+### 🔧 Clone the repository
+
+🛠️ Setup: Students Feedback
+bash
+Copy
+Edit
+cd students-feedback
+npm install
+npm run dev
+🛠️ Setup: QuickTasks (Full Stack)
+Backend
+bash
+Copy
+Edit
+cd quicktasks/backend
+npm install
+npm run dev
+Frontend
+bash
+Copy
+Edit
+cd quicktasks/frontend
+npm install
+npm run dev
+✅ Assignment Tasks Covered
+✅ Vite + Tailwind CSS setup
+
+✅ Component architecture & reusable components
+
+✅ useState, useEffect, useContext, custom hooks
+
+✅ API integration with loading/error states
+
+✅ MongoDB + Express backend (QuickTasks)
+
+✅ Responsive design with Tailwind
+
+
+
+📩 Author
+Created by Kollen Simon Kollen — as part of Week 3 Assignment
+Instructor: Dedan Okware
