@@ -14,10 +14,6 @@ This repository contains **two React projects** developed as part of the Week 3 
 └── server/
 └── API integration with MongoDB
 
-markdown
-Copy
-Edit
-
 ---
 
 ## 📘 Project 1: Students Feedback
